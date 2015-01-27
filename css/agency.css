@@ -269,13 +269,15 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    /*background: url(../img/header-bg.png) no-repeat scroll center center/cover transparent;
+    height: 100%;*/
 }
 
 header .intro-text {
@@ -309,9 +311,9 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 4em;
         font-style: italic;
-        line-height: 40px;
+        line-height: 65px;
     }
 
     header .intro-text .intro-heading {
@@ -427,6 +429,7 @@ section h3.section-subheading {
 }
 
 @media(min-width:767px) {
+
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -546,6 +549,7 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
+
     .timeline:before {
         left: 50%;
     }
@@ -867,8 +871,9 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
+body, html {
     webkit-tap-highlight-color: #4db6ac;
+    height:100%;
 }
 
 /***************************************************************/
@@ -880,11 +885,34 @@ body {
 }
 
 .small-text{
-    font-size: 3.5em !important;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
     text-transform: none !important;
     font-weight: normal !important;
+    font-style: normal !important;
 }
 
 .intro-text{
-    margin-top: -6em !important;
+    text-align: left !important; 
+}
+
+.btn-header{
+    margin-bottom: 1.5em; 
+}
+
+.second-text{
+    margin-left:0.5em;
+}
+
+
+.third-text{
+    margin-left:1em;
+}
+
+.emphasis{
+    color:#4db6ac;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 1.3em;
 }
