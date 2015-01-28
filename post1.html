@@ -185,8 +185,8 @@
         <!-- Bootstrap Core CSS 
         <link href="css/bootstrap.min.css" rel="stylesheet">-->
 
-        <!-- Custom CSS -->
-        <link href="css/agency.min.css" rel="stylesheet">
+        <!-- Custom CSS 
+        <link href="css/agency.min.css" rel="stylesheet"> -->
 
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -223,6 +223,11 @@
         var l = document.createElement('link'); l.rel = 'stylesheet';
         l.href = 'css/bootstrap.min.css';
         var h = document.getElementById('estilos'); h.parentNode.insertBefore(l, h);
+
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = 'css/agency.min.css';
+        var h = document.getElementById('estilos'); h.parentNode.insertBefore(l, h);
+
         };
         var raf = requestAnimationFrame || mozRequestAnimationFrame ||
         webkitRequestAnimationFrame || msRequestAnimationFrame;
