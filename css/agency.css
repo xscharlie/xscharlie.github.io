@@ -336,7 +336,7 @@ section h2.section-heading {
     font-size: 40px;
 }
 
-section h3.section-subheading {
+section h3.section-subheading{
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -916,3 +916,47 @@ body, html {
     font-weight: bold;
     font-size: 1.3em;
 }
+
+.img-circle-post{
+    border: 3px solid gray !important;
+}
+
+
+.img-circle-post:hover{
+    border: 10px solid gray !important;
+    cursor: pointer;
+}
+
+/*Estilo del boton arriba*/
+
+#Arriba {
+z-index: 5 !important;
+position: fixed;
+bottom: 30px; /* Distancia desde abajo */
+right: 30px; /* Distancia desde la derecha */
+/*BOTON*/
+width: 60px; /* Ancho del botón */
+height: 60px; /* Alto del botón */
+display: block;
+background: url(http://lh5.googleusercontent.com/-luDGEoQ_WZE/T1Ak-gta5MI/AAAAAAAACPI/ojfEGiaNmGw/s60/flecha-arriba.png) no-repeat center center;
+}
+
+#Arriba:hover{
+    cursor: pointer;
+}
+
+/********************** posts  *************************/
+.navbar-post{
+    background-color: rgba(0,0,0,1);
+}
+
+.img-post{
+    width: 512px;
+    height: 512px;
+}
+
+.text-post{
+    padding:2em;
+    font-size: 16px;
+}
+
