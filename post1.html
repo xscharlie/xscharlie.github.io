@@ -10,7 +10,17 @@
     <meta name="author" content="">
 
     <title>Geekoders</title>
-
+    <script>
+        var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = 'css/bootstrap.min.css';
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+        webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+    </script>
 </head>
 
 <body id="page-top" class="index">
@@ -182,8 +192,8 @@
     <link rel="shortcut icon" href="img/logos/favicon.png" type="image/png">
     <link rel="icon" href="img/logos/favicon.png" type="image/png">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS 
+    <link href="css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
@@ -200,22 +210,22 @@
     <![endif]-->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.js" async defer></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js" async defer></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/jquery.easing.min.js" async defer></script>
+    <script src="js/classie.js" async defer></script>
+    <script src="js/cbpAnimatedHeader.js" async defer></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js" async defer></script>
+    <script src="js/contact_me.js" async defer></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
+    <script src="js/agency.js" async defer></script>
 
 </body>
 
