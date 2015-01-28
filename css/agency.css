@@ -964,3 +964,29 @@ background: url(http://lh5.googleusercontent.com/-luDGEoQ_WZE/T1Ak-gta5MI/AAAAAA
     font-size: 16px;
 }
 
+.last-title{
+    background-color: #4DB6AC;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+.last-box{
+    border: 1px solid #4DB6AC;
+    text-align: center;
+    padding: 1em;
+    height: auto;
+}
+
+.last-img{
+    height: 15em;
+    margin: 0 auto;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: gray; /* old IE */
+    background-color: gray; /* Modern Browsers */
+}
