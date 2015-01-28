@@ -235,6 +235,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -303,6 +304,7 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -346,9 +348,11 @@ section h3.section-subheading{
 }
 
 @media(min-width:768px) {
+    
     section {
         padding: 150px 0;
     }
+
 }
 
 .service-heading {
@@ -951,8 +955,8 @@ background: url(http://lh5.googleusercontent.com/-luDGEoQ_WZE/T1Ak-gta5MI/AAAAAA
 }
 
 .img-post{
-    width: 512px;
-    height: 512px;
+    width: 100%;
+    height: 100%;
 }
 
 .text-post{
