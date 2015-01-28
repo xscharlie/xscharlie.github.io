@@ -990,3 +990,8 @@ hr{
     color: gray; /* old IE */
     background-color: gray; /* Modern Browsers */
 }
+
+.text-important{
+    font-size: 1.2em;
+    text-align: center;
+}
