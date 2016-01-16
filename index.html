@@ -1,124 +1,800 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <title>Flat Design Mini Portfolio</title>
-    <meta name="description" content="Flat Design Mini Portfolio">
-    <meta name="keywords" content="responsive, bootstrap, flat design, flat ui, portfolio">
-    <meta name="author" content="Dzyngiri">
-    <meta name="description" content="This is a responsive flat design mini portfolio for creative folks who want to showcase their work online.">
-    <!-- styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="font/css/fontello.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html>
+    <head lang="en-GB">
+        <title>Profile of Tameem Safi | Professional Web Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="profile" content="http://www.w3.org/2005/10/profile">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+		<link rel="alternate" href="https://safi.me.uk" hreflang="en" />
+        <meta charset="UTF-8">
+        <!-- CSS -->
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="outdatedbrowser/outdatedbrowser.min.css" rel="stylesheet">
+        <link href="css/sweet-alert.css" rel="stylesheet">
+        <link href="css/jquery.fullPage.css" rel="stylesheet">
+        <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="owl-carousel/owl.transitions.css" rel="stylesheet">
+        <link href="css/antiscroll.css" rel="stylesheet">
+        <link type="text/css" media="screen" rel="stylesheet" href="css/awwwards.css" />
+        <link href="css/style.css" rel="stylesheet">
     
-    <link rel="stylesheet" type="text/css" href="http://dzyngiri.com/demo/ads/ads.css">
-    <!--IGNORE: Google analytics-->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-29231762-1']);
-      _gaq.push(['_setDomainName', 'dzyngiri.com']);
-      _gaq.push(['_trackPageview']);
-    
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <meta name="msvalidate.01" content="09692E9A9D5629DE1CE9855BB9649DEF" />
-    <!-- End: Google analytics-->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+          
+        <!-- SEO OPTIMISATION -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="I'm a professional web designer with several years' experience across all major platforms." />
+        <meta name="keywords" content="frontend developer, backend developer, web developer" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="Profile of Tameem Safi | Professional Web Developer" />
+        <meta property="og:description" content="I'm a professional web designer with several years' experience across all major platforms." />
+        <meta property="og:image" content="" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="140" />
+        <meta property="og:image:height" content="185" />
+        <meta property="og:url" content="http://www.safi.me.uk">
+        <meta property="og:type" content="profile">
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:site_name" content="Tameem Safi">
+        <meta property="profile:first_name" content="Tameem">
+        <meta property="profile:last_name" content="Safi">
+        <meta property="profile:username" content="tameemsafi">
+        <meta property="profile:gender" content="male">
+        <meta property="fb:profile_id" content="" />
+        <!--<meta http-equiv="language" content="en_GB">
+        <meta itemprop="name" content="Tameem Safi">
+        <meta itemprop="description" content="I'm a professional web designer with several years' experience across all major platforms.">
+        <meta itemprop="url" content="http://www.safi.me.uk">
+        <meta itemprop="image" content="" />
+        <meta itemprop="jobTitle" content="Frontend and Backend Web Developer">
+        <meta itemprop="sameAs" content="" />
+        <meta itemprop="sameAs" content="" />
+        <meta itemprop="sameAs" content="" />
+        <meta itemprop="sameAs" content="" />
+        <meta itemprop="gender" content="male">
+        <meta itemprop="knows" content="Frontend web development, backend web development, HTML, CSS, JQuery, Javascript, PHP, MySQL, Laravel PHP Framework">
+        <meta itemprop="memberOf" content="">
+        <meta itemprop="affiliation" content="">
+        <meta itemprop="worksFor" content="">
+        <meta name="twitter:card" content="" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:image:src" content="" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+        <link rel="icon" type="image/img/png" sizes="192x192" href="/img/android-icon-192x192.png">
+        <link rel="icon" type="image/img/png" sizes="32x32" href="/img/favicon-32x32.png">
+        <link rel="icon" type="image/img/png" sizes="96x96" href="/img/favicon-96x96.png">
+        <link rel="icon" type="image/img/png" sizes="16x16" href="/img/favicon-16x16.png">
+        <link rel="manifest" href="/img/manifest.json">-->
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+		<meta name="google-site-verification" content="-5Rt69B2jdvIS7eY09XyVvmjcG7VaxJ7NYIyP04sf_U" />
+		<meta name="msvalidate.01" content="09AFEF4EF41BD27E432EBBECB8087C9A" />
     </head>
     <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index.html"><img src="img/user.jpg"/></a>
-          <ul class="nav nav-collapse pull-right">
-            <li><a href="index.html" class="active"><i class="icon-user"></i> Profile</a></li>
-            <li><a href="skills.html"><i class="icon-trophy"></i> Skills</a></li>
-            <li><a href="work.html"><i class="icon-picture"></i> Work</a></li>
-            <li><a href="resume.html"><i class="icon-doc-text"></i> Resume</a></li>
-          </ul>
-          <!-- Everything you want hidden at 940px or less, place within here -->
-          <div class="nav-collapse collapse">
-            <!-- .nav, .navbar-search, .navbar-form, etc -->
-          </div>
+        <!-- Outdate Browser Warning Message -->
+        <div id="outdated"></div>
+        
+        <div id="awwwards" class="nominee white right">
+            <a href="http://www.awwwards.com/best-websites/tameem-safi-profile/" target="_blank">Awwwards</a>
         </div>
-      </div>
-    </div>
-    <!--Profile container-->
-    <div class="container profile">
-      <div class="span3"> <img src="img/mini.png"> </div>
-      <div class="span5">
-        <h1>Juan Dela Cruz</h1>
-        <h3>Web &amp; Graphics Designer</h3>
-        <p> Hello I am Juan Dela Cruz Web and Graphics Designer from Philipines. If yopu have something to be done just call my name and I will be there. :-) </p>
-        <a href="#" class="hire-me"><i class="icon-paper-plane"></i> Hire Me </a> </div>
-    </div>
-    <!--END: Profile container-->
-    <!-- Social Icons -->
-    <div class="row social">
-      <ul class="social-icons">
-        <li><a href="#" target="_blank"><img src="img/fb.png" alt="facebook"></a></li>
-        <li><a href="#" target="_blank"><img src="img/tw.png" alt="twitter"></a></li>
-        <li><a href="#" target="_blank"><img src="img/go.png" alt="google plus"></a></li>
-        <li><a href="#" target="_blank"><img src="img/pin.png" alt="pinterest"></a></li>
-        <li><a href="#" target="_blank"><img src="img/st.png" alt="stumbleupon"></a></li>
-        <li><a href="#" target="_blank"><img src="img/dr.png" alt="dribbble"></a></li>
-      </ul>
-    </div>
-    <!-- END: Social Icons -->
-    <!-- Footer -->
-    <div class="footer">
-      <div class="container">
-        <p class="pull-left"><a href="http://dzyngiri.com">www.dzyngiri.com</a></p>
-        <p class="pull-right"><a href="#myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTACT</a></p>
-      </div>
-    </div>
-    <!-- Contact form in Modal -->
-    <!-- Modal -->
-    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel"><i class="icon-mail"></i> Contact Me</h3>
-      </div>
-      <div class="modal-body">
-        <form>
-          <input type="text" placeholder="Yopur Name">
-          <input type="text" placeholder="Your Email">
-          <input type="text" placeholder="Website (Optional)">
-          <textarea rows="3" style="width:80%"></textarea>
-          <br/>
-          <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> SUBMIT</button>
-        </form>
-      </div>
-    </div>
-    <!-- Scripts -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <!--Ads on demo page-->
-    <script type="text/javascript">
-    $(document).ready(function(){
-    
-    $(".divClass .deleteDiv").click(function(){
-    $(this).parents(".divClass").animate({ opacity: 'hide' }, "slow");
-    });
-    
-    });
-    </script>
-    <div class="divClass" style="top:84px;">
-      <div id="carbonads-container">
-        <div class="carbonad">
-          <div id="azcarbon"></div>
-          <script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/49185/azcarbon_2_1_0_VERT"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+        
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="logo">Tameem Safi</p>
+                        <p class="subLogo">Web Developer Based in Enfield, North London</p>
+                    </div>
+                    <div class="col-md-6 headerBtnCol">
+                        <a href="#contact" class="hireBtn">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div id="fullpage">
+            <!-- START: About Section -->
+            <div class="section aboutSection">
+                <div class="insideSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-push-6 col-md-6 text-center">
+                                <img src="img/about-img.jpg" alt="" class="img-responsive sectionImg aboutImg">
+                            </div>
+                            <div class="col-md-pull-6 col-md-6">
+                                <p class="smallHeading">About Me</p>
+                                <!--<h1>I'm a professional <span id="h1Words"></span> with several years' experience across all major platforms.</h1>-->
+                                <h1><span></span></h1>
+                                <p>I've completed hundreds of projects on behalf of multinational clients and independent startups, working on every aspect of web dev elopment, from initial design through to final product. I'm highly skilled in key coding languages: HTML, CSS, SASS, PHP, Laravel PHP Framework, JQuery and MySQL.</p>
+                                <p>I'm also experienced in using Twitter's bootstrap plugin and grid system (CSS framework), and I know how to improve search engine rankings. I love everything about web development and enjoy creating innovative, user-friendly designs on Adobe PhotoShop, before bringing them to life on fully-customisable content management systems.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="scrollIcon">
+                    <a href="#skills"><i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <!-- START: About Section -->
+            
+            <!-- START: Skills Section -->
+            <div class="section skillSection">
+                <div class="insideSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="smallHeading">Section</p>
+                                <h2>My Professional Skills</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="html circle">
+                                                        <strong><img src="img/icons/html-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>HTML 5</h3>
+                                                    <p>I have an outstanding knowledge of HTML and HTML5. This is the most important language in frontend web development.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="css circle">
+                                                        <strong><img src="img/icons/css-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>CSS 3</h3>
+                                                    <p>I understand how to use CSS3 and SASS inorder to bring any design to life on the web. Including this website you are viewing.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="js circle">
+                                                        <strong><img src="img/icons/javascript-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>JS &amp; JQuery</h3>
+                                                    <p>My knowledge of Javascript and JQuery allows me to create dynamic websites that enages the user.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="php circle">
+                                                        <strong><img src="img/icons/php-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>PHP</h3>
+													<p>I work on <em>large php applications</em> for my clients, this can include user management, payment gateways and other advanced features.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="mysql circle">
+                                                        <strong><img src="img/icons/mysql-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>MySQL</h3>
+                                                    <p>I use MySQL to produce large scale database driven applications and content management systems. I work with PHPMyAdmin and Sequel Pro.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="wordpress circle">
+                                                        <strong><img src="img/icons/wordpress-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>Wordpress</h3>
+													<p>I have an exceptional understanding of wordpress. I can create <strong>fully responsive bespoke wordpress themes</strong> or modifing exisiting themes.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="photoshop circle">
+                                                        <strong><img src="img/icons/photoshop-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>Photoshop</h3>
+                                                    <p>I can use adobe photoshop to create very high quality web designs based on the bootstrap grid system.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="seo circle">
+                                                        <strong><img src="img/icons/seo-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>SEO</h3>
+                                                    <p>I understand how a search engine reads a website and how it ranks it. I use this to create search engine friendly responsive websites.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+
+                                <!-- START: Skill -->
+                                <div class="col-md-4 skillCol">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="laravel circle">
+                                                        <strong><img src="img/icons/laravel-icon.png" width="30" height="30" alt=""></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3>Laravel 5</h3>
+                                                    <p>I use the laravel 5 php framework to create large scale applications for my clients Contact me for <em>freelance laravel development</em>.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: Skill -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scrollIcon">
+                    <a href="#education"><i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <!-- START: Skills Section -->
+            
+            <!-- START: Education Section -->
+            <div class="section educationSection">
+                <div class="insideSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-push-6 col-md-6 text-center">
+                                <img src="img/education-img.png" alt="" class="img-responsive sectionImg eduImg">
+                            </div>
+                            <div class="col-md-pull-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="smallHeading">Resume</p>
+                                        <h2>Education History</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div id="educationSlider" class="owl-carousel owl-theme slider">
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Barnet &amp; Southgate College</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-graduation-cap"></i> A-Levels <i class="fa2 fa fa-calendar"></i> 2012 &#45; 2014</p>
+                                                <p>I studied by A-Levels at this educational institution. During my time I achieved A-Levels in Mathematics, Economics and Goverment &amp; Politics.</p>
+                                            </div>
+                                            <!-- END: education -->
+                                            
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Southgate School</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-graduation-cap"></i> GCSEs <i class="fa2 fa fa-calendar"></i> 2009 &#45; 2012</p>
+                                                <p>During my time at Southgate secondary school I achieved my GCSE’s in the following subjects; Mathematics, Additional Science, Electronics, Religious Studies, English Literature, English Language, ICT, French.</p>
+                                            </div>
+                                            <!-- END: education -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scrollIcon">
+                    <a href="#work"><i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <!-- START: Education Section -->
+            
+            <!-- START: Work Experience Section -->
+            <div class="section workSection">
+                <div class="insideSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-push-6 col-md-6 text-center">
+                                <img src="img/work-img.png" alt="" class="img-responsive sectionImg workImg">
+                            </div>
+                            <div class="col-md-pull-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="smallHeading">Resume</p>
+                                        <h2>Work Experience</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="owl-carousel owl-theme slider">
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Merchaniser</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> John Lewis <i class="fa2 fa fa-calendar"></i> Nov 2014 &#45; Jan 2015</p>
+                                                <p>I was working during the Christmas season, which is when almost 45% of their sales occur. My role was to provide a very high standard of customer service and make sure that all the stock was presented clearly to the customers. At busy times I also was working as a cashier on the tills to process customers transactions. I had to use my initiative on a daily basis to make sure everything on the shop floor was in order.</p>
+                                            </div>
+                                            <!-- END: education -->
+                                            
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Customer Service</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> Confidential <i class="fa2 fa fa-calendar"></i> June 2014 &#45; Sept 2014</p>
+                                                <p>Whilst working for this organization, I have gained many new skills and experiences. I have learn't how important it is to maintain the reputation of a prestigious brand. The most important part of my job was to provide excellent quality of customer service to thousands of visitors who had very high expectations.</p>
+                                            </div>
+                                            <!-- END: education -->
+                                            
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Work Experience</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> HandE Production Studio <i class="fa2 fa fa-calendar"></i> July 2010 &#45; 2 Weeks</p>
+                                                <p>This was part of my secondary school work experience program. HandE is a professional media production company, which produces a range of different media related material. As part of my stay I learnt; how the company was able to find clients, the process that goes on behind the production of a film – for example how all the lighting and camera equipment are setup. It was also my first job so it taught me how it feels like to be in a work place environment.</p>
+                                            </div>
+                                            <!-- END: education -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scrollIcon">
+                    <a href="#personal"><i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <!-- START: Work Experience Section -->
+            
+            <!-- START: Personal Experience Section -->
+            <div class="section personalSection">
+                <div class="insideSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-push-6 col-md-6 text-center">
+                                <img src="img/personal-img.png" alt="" class="img-responsive sectionImg personalImg">
+                            </div>
+                            <div class="col-md-pull-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="smallHeading">Resume</p>
+                                        <h2>Web Development Experience</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="owl-carousel owl-theme slider">
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Web Developer</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> Freelance <i class="fa2 fa fa-calendar"></i> 2012 &#45; Present</p>
+												<p>In my spare time I do freelance web development. This included frontend and backend. I had the opportunity to advance my skills in HTML, CSS, SASS, JQuery, PHP, MySQL and the Laravel PHP Framework. I mainly used the bootstrap framework and their grid system in order to create fully responsive websites. Also I have had experience creating working wordpress themes. I am currently based in <strong>Enfield, North London.</strong></p>
+                                            </div>
+                                            <!-- END: education -->
+
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Freelance Developer</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> DrossMedia <i class="fa2 fa fa-calendar"></i> Ongoing</p>
+                                                <p>I have been working with DrossMedia as a freelance web developer on many projects. This has included both frontend and backend development. It has been a pleasure to work with them, and always will be. You can find more informaton on their website <a href="http://drossmedia.de">DrossMedia</a>.</p>
+                                            </div>
+                                            <!-- END: education -->
+
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Web Developer</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> TechOuch.com <i class="fa2 fa fa-calendar"></i> 2013 &#45; 2014</p>
+                                                <p>I created an online blog on the subject of technology with a friend while I was studying my a-Levels. We managed to make a decent amount of income using Google Adsense while completing our studies. I learnt a lot about keyword research, search engine optimisation and copywriting for a blog.</p>
+                                            </div>
+                                            <!-- END: education -->
+                                            
+                                            <!-- START: education -->
+                                            <div class="item">
+                                                <h3>Web Developer</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> EconomicsRevision.co.uk <i class="fa2 fa fa-calendar"></i> 2013 &#45; 2014</p>
+                                                <p>While studying for my economics a-level, I created an economics revision website. We put lots of articles about the different topics that we learnt in school, including notes which our lecturer provided. We also answered questions that people asked on the website. We were ranked #1 for the keyword 'Economics Revision' and gained a decent amount of traffic while the site was running.</p>
+                                            </div>
+                                            <!-- END: education -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scrollIcon">
+                    <a href="#achv"><i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <!-- START: Personal Experience Section -->
+            
+            <!-- START: Achievements Section -->
+            <div class="section achvSection">
+                <div class="insideSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-push-6 col-md-6 text-center">
+                                <img src="img/achievements-img.png" alt="" class="img-responsive sectionImg achvImg">
+                            </div>
+                            <div class="col-md-pull-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="smallHeading">Resume</p>
+                                        <h2>My Achievements</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="owl-carousel owl-theme slider">
+											<!-- START: achievement -->
+											<div class="item">
+												<h3>Apple Hall of Fame</h3>
+												<p class="subHeading"><i class="fa1 fa fa-link"></i> <a href="https://support.apple.com/en-gb/HT201536">Hall of Fame</a></p>
+												<p>I have been acknowledged on the Apple hall of fame by the Apple security team for a cross-site scripting issue.</p>
+											</div>
+											<!-- END: achievement -->
+                                           
+                                            <!-- START: achievement -->
+                                            <div class="item">
+                                                <h3>Teakwondo</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> Green Belt</p>
+                                                <p>After seeing the health benefits of the sport I decided to participate and therefore achieved a green belt after several months of training.</p>
+                                            </div>
+											<!-- END: achievement -->
+
+											<!-- START: achievement -->
+                                            <div class="item">
+                                                <h3>EFSET PLUS 73 Proficient (CEFR C2)</h3>
+                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> EF Education First</p>
+                                                <p>I completed the online based exam at <a href="https://www.efset.org/en">efset.org</a> and managed to obtain a 'Proficient' certificate.</p>
+                                                <p>"Your command of English allows you to read virtually any kind of text (factual, literary, technical) and accurately recognize and categorize style and tone. You can understand complex technical writing on unfamiliar subjects on a wide range of topics." - efset.org</p>
+                                                <p>"You are comfortable in all situations, live or broadcast, that require full comprehension of spoken English; you are almost never confused or searching for the meaning of words and phrases. You understand nuances of expression and tone, humor and emphasis in all live theatrical presentations, films or broadcast presentations in English." - efset.org</p>
+                                            </div>
+											<!-- END: achievement -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scrollIcon">
+                    <a href="#contact"><i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <!-- START: Achievements Section -->
+            
+            <!-- START: Contact Section -->
+            <div class="section contactSection">
+                <div class="insideSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-push-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="rightBox">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="smallHeading">Get in touch</p>
+                                                    <h2>Contact Information</h2>
+                                                    <p>Here is my contact details incase you would like to get into contact with me.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row infoRow">
+                                                <!-- Location -->
+                                                <div class="col-md-4">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <span class="fa-stack fa-lg">
+                                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                                <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <p>United Kingdom</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- Phone -->
+                                                <div class="col-md-4">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <span class="fa-stack fa-lg">
+                                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                                <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <p>(+44) 075 1873 8472</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- Email -->
+                                                <div class="col-md-4">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <span class="fa-stack fa-lg">
+                                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <p>tameem&#64;safi.me.uk</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="map"><div id="map-canvas"></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-pull-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="smallHeading">Contact Me</p>
+                                        <h2>How Can I Help You?</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>I specialise in all aspects of web design and stay on top of current trends. For me, web design isn't just a job - it's a passion. I enjoy the spark of an idea, making it a reality and seeing the joy on a client's face when they view it for the first time. I take real pride in my work and always receive positive feedback. I'm not happy until the client is happy.</p>
+                                        <p>My portfolio is available upon request. Let me know what you're looking for, and I'll tell you what I can deliver.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <form action="php/contact_form.php" method="get" id="contact_form">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="contact_name">Name <span>&#42;</span></label>
+                                                        <input type="text" class="form-control req" id="contact_name" name="contact_name" placeholder="Enter your full name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="email">Email Address <span>&#42;</span></label>
+                                                        <input type="email" class="form-control req" name="email" id="email" placeholder="Enter your email address">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="comment">Message <span>&#42;</span></label>
+                                                        <textarea class="form-control req" id="comment" name="comment" rows="3"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-block btn-success">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scrollIcon">
+                    <a href="#acrd"><i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <!-- START: Contact Section -->
+            
+            <!-- START: Accreditations Section -->
+            <div class="section acrdSection">
+                <div class="insideSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-push-6 col-md-6 text-center">
+                                <img src="img/accreditations-img.png" alt="" class="img-responsive sectionImg achvImg">
+                            </div>
+                            <div class="col-md-pull-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="smallHeading">Section</p>
+                                        <h2>Accreditations</h2>
+                                        <p>I would like to say thank you to these websites. Without their free resources I wouldn't have been able to create this website.</p>
+                                        <ul class="acrdList">
+                                            <li><a href="http://www.freepik.com/">Freepik</a></li>
+                                            <li><a href="https://thenounproject.com">The Noun Project</a></li>
+                                            <li><a href="http://www.mattboldt.com">Matt Boldt (Typed.js)</a></li>
+                                        </ul>
+                                        <p>This website was created and designed by <strong>Tameem Safi</strong>.</p>
+                                        <p>&copy; Copyright 2015. All rights reserved.</p>
+                                        <br class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- START: Accreditations Section -->
         </div>
-      </div>
-      <img src="http://dzyngiri.com/demo/ads/close.png" alt="Close" class="deleteDiv" /> </div>
-    <!--End: Ads on demo page-->
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-                $('#myModal').modal('hidden')
-    </script>
+        
+        
+        
+        
+        <!-- Javacript Files -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp5yEZBzmlAyPzinGeQ1HxwvOaghIXVJY&amp;sensor=false"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="outdatedbrowser/outdatedbrowser.min.js"></script>
+        <script src="js/sweet-alert.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.slimscroll.min.js"></script>
+        <script src="js/jquery.fullPage.min.js"></script>
+        <script src="js/circle-progress.js"></script>
+        <script src="owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.mousewheel.js"></script>
+        <script src="js/antiscroll.js"></script>
+        <script src="js/typed.custom.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            /* Google Maps */
+            var map;
+            var myLatlng = new google.maps.LatLng(51.509628, -0.113272);
+            function initialize() {
+                var mapOptions = {
+                    zoom: 10,
+                    center: myLatlng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    icon: 'img/map-pointer.png',
+                    title: 'Tameem Safi'
+                });
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+            /* Google Analytics */
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-63512244-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "ProfessionalService",
+			"currenciesAccepted": "GBP, USD",
+			"paymentAccepted": "PayPal, Credit Card, Debit Card",
+			"priceRange": "£500 to £10,000",
+			"awards": "Apple Hall of Fame, Awwwards Nominee, CSSWinner Nominee",
+			"address": "Enfield, London, United Kingdom",
+			"brand": "Tameem Safi",
+			"founder": "Tameem Safi",
+			"email": "tameem@safi.me.uk",
+			"makesOffer": "Web Development Services",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "51.6522994",
+				"longitude": "-0.08071189999998296"
+			},
+			"name": "Freelance Web Development",
+			"description": "I'm a professional web designer with several years' experience across all major platforms. Don't hesitate to contact me.",
+			"legalName": "Tameem Safi",
+			"location": "Enfield, London, United Kingdom",
+			"telephone": "+44 075 1873 8472",
+			"url": "https://safi.me.uk"
+		}
+		</script>
     </body>
-    </html>
+</html>
