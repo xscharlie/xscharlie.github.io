@@ -16,20 +16,9 @@ $(document).ready(function(){
         loop: true,
     });*/
     
-    var now = new Date();
-    var hours = now.getHours();
-    var greeting_message;
-    
-    if(hours<12){
-        greeting_message = "Hola, buenos días";
-    } else if(hours<18) {
-        greeting_message = "Hola, buenas tardes";
-    } else {
-        greeting_message = "Hola, buenas noches";
-    }
     
     $(".aboutSection h1 span").typed({
-        strings: [greeting_message + ",^1000 Soy un profesional <span id='h1words'>en el diseño web,</span> con años de experiencia en las principales tecnologías."],
+        strings: ["^1000 Hola, soy un profesional <span id='h1words'>en el diseño web,</span> con años de experiencia en las principales tecnologías."],
         contentType: 'html',
         showCursor: true,
         typeSpeed: 20,
@@ -144,7 +133,7 @@ $(document).ready(function(){
                 startAngle: -Math.PI / 4 * 3,
                 value: value[1],
                 lineCap: 'round',
-                fill: { color: '#ffa500' }
+                fill: { color: '#2F98BB' }
             });
         });
         return true;

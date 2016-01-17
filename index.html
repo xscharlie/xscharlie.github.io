@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en-GB">
+    <head lang="es">
         <title>Carlos Hernández | Desarrollador Web y Móvil</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="profile" content="http://www.w3.org/2005/10/profile">
@@ -18,7 +18,6 @@
         <link href="owl-carousel/owl.theme.css" rel="stylesheet">
         <link href="owl-carousel/owl.transitions.css" rel="stylesheet">
         <link href="css/antiscroll.css" rel="stylesheet">
-        <link type="text/css" media="screen" rel="stylesheet" href="css/awwwards.css" />
         <link href="css/style.css" rel="stylesheet">
     
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -99,7 +98,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="logo">Carlos Hernández</p>
+                        <p class="logo">
+                            Carlos Hernández
+                        </p>
                         <p class="subLogo">Web & Mobile Developer</p>
                     </div>
                     <div class="col-md-6 headerBtnCol">
@@ -114,13 +115,12 @@
             <div class="section aboutSection">
                 <div class="insideSection">
                     <div class="container">
-                        <div class="row">
+                        <div class="row row-about-me">
                             <div class="col-md-push-6 col-md-6 text-center">
                                 <img src="img/about-img.jpg" alt="" class="img-responsive sectionImg aboutImg">
                             </div>
                             <div class="col-md-pull-6 col-md-6">
-                                <p class="smallHeading">Acerca de mí</p>
-                                <!--<h1>I'm a professional <span id="h1Words"></span> with several years' experience across all major platforms.</h1>-->
+                                
                                 <h1><span></span></h1>
                                 <p>
                                   Soy un desarrollador de aplicaciones para la web y dispositivos moviles con un flujo de trabajo que incluye desde la conceptualizacion de la idea, el proceso de diseño, la creación de prototipos hasta la puesta en producción del producto.
@@ -508,62 +508,6 @@
             </div>
             <!-- START: Personal Experience Section -->
             
-            <!-- START: Achievements Section -->
-            <div class="section achvSection">
-                <div class="insideSection">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-push-6 col-md-6 text-center">
-                                <img src="img/achievements-img.png" alt="" class="img-responsive sectionImg achvImg">
-                            </div>
-                            <div class="col-md-pull-6 col-md-6">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p class="smallHeading">Resume</p>
-                                        <h2>My Achievements</h2>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="owl-carousel owl-theme slider">
-											<!-- START: achievement -->
-											<div class="item">
-												<h3>Apple Hall of Fame</h3>
-												<p class="subHeading"><i class="fa1 fa fa-link"></i> <a href="https://support.apple.com/en-gb/HT201536">Hall of Fame</a></p>
-												<p>I have been acknowledged on the Apple hall of fame by the Apple security team for a cross-site scripting issue.</p>
-											</div>
-											<!-- END: achievement -->
-                                           
-                                            <!-- START: achievement -->
-                                            <div class="item">
-                                                <h3>Teakwondo</h3>
-                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> Green Belt</p>
-                                                <p>After seeing the health benefits of the sport I decided to participate and therefore achieved a green belt after several months of training.</p>
-                                            </div>
-											<!-- END: achievement -->
-
-											<!-- START: achievement -->
-                                            <div class="item">
-                                                <h3>EFSET PLUS 73 Proficient (CEFR C2)</h3>
-                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> EF Education First</p>
-                                                <p>I completed the online based exam at <a href="https://www.efset.org/en">efset.org</a> and managed to obtain a 'Proficient' certificate.</p>
-                                                <p>"Your command of English allows you to read virtually any kind of text (factual, literary, technical) and accurately recognize and categorize style and tone. You can understand complex technical writing on unfamiliar subjects on a wide range of topics." - efset.org</p>
-                                                <p>"You are comfortable in all situations, live or broadcast, that require full comprehension of spoken English; you are almost never confused or searching for the meaning of words and phrases. You understand nuances of expression and tone, humor and emphasis in all live theatrical presentations, films or broadcast presentations in English." - efset.org</p>
-                                            </div>
-											<!-- END: achievement -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="scrollIcon">
-                    <a href="#contact"><i class="fa fa-chevron-down"></i></a>
-                </div>
-            </div>
-            <!-- START: Achievements Section -->
-            
             <!-- START: Contact Section -->
             <div class="section contactSection">
                 <div class="insideSection">
@@ -572,148 +516,116 @@
                             <div class="col-md-push-6 col-md-6">
                                 <div class="row">
                                     <div class="col-md-12">
+                                        <form action="php/contact_form.php" method="get" id="contact_form">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <h3 class="form-message">Deja un mensaje</h3>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="contact_name">Nombre <span>&#42;</span></label>
+                                                        <input type="text" class="form-control req" id="contact_name" name="contact_name" placeholder="Ingresa tu nombre completo">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="email">Email <span>&#42;</span></label>
+                                                        <input type="email" class="form-control req" name="email" id="email" placeholder="Ingresa tu dirección email">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="email">Empresa</label>
+                                                        <input type="company" class="form-control" name="company" id="company" placeholder="Institución o empresa">
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="comment">Mensaje <span>&#42;</span></label>
+                                                        <textarea class="form-control req" id="comment" name="comment" rows="3"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-block btn-success">Enviar</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-pull-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="smallHeading">Contáctame</p>
+                                        <h2>¿Cómo puedo ayudarte?</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>
+                                            Soy especialista en las diferentes etapas del diseño y desarrollo de aplicaciones web y para dispositivos móviles, utilizo tecnologías y técnicas de vanguardia que garantizan la satisfacción de cada uno de los clientes.
+
+                                            Déjame saber lo que estás buscando y con gusto te hare una propuesta que se ajuste a tus necesidades.
+                                        </p>
+                                            
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
                                         <div class="rightBox">
                                             <div class="row">
                                                 <div class="col-md-12">
-                                                    <p class="smallHeading">Get in touch</p>
-                                                    <h2>Contact Information</h2>
-                                                    <p>Here is my contact details incase you would like to get into contact with me.</p>
+                                                    <h2>
+                                                        Información de contácto
+                                                    </h2>
                                                 </div>
                                             </div>
                                             <div class="row infoRow">
                                                 <!-- Location -->
                                                 <div class="col-md-4">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
+                                                    
                                                             <span class="fa-stack fa-lg">
                                                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                                                <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                                                                <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
                                                             </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <p>United Kingdom</p>
-                                                        </div>
-                                                    </div>
+                                                        
+                                                    
+                                                            <a href="skype:xscharlie?call">
+                                                                <p class="center-align">Llámame</p>
+                                                            </a>
+                                                        
                                                 </div>
                                                 
                                                 <!-- Phone -->
                                                 <div class="col-md-4">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
+                                                    
                                                             <span class="fa-stack fa-lg">
                                                                 <i class="fa fa-circle fa-stack-2x"></i>
                                                                 <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
                                                             </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <p>(+44) 075 1873 8472</p>
-                                                        </div>
-                                                    </div>
+                                                        
+                                                            <p class="center-align">(+503) 7372-5925</p>
+                                                        
                                                 </div>
                                                 
                                                 <!-- Email -->
                                                 <div class="col-md-4">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
+                                                    
                                                             <span class="fa-stack fa-lg">
                                                                 <i class="fa fa-circle fa-stack-2x"></i>
                                                                 <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                                                             </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <p>tameem&#64;safi.me.uk</p>
-                                                        </div>
-                                                    </div>
+                                                       
+                                                            <a href="mailto:info@carloshdez.com">
+                                                                <p class="center-align">
+                                                                    info&#64;carloshdez.com
+                                                                </p>
+                                                            </a>
+                                                        
                                                 </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="map"><div id="map-canvas"></div></div>
-                                                </div>
+
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-pull-6 col-md-6">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p class="smallHeading">Contact Me</p>
-                                        <h2>How Can I Help You?</h2>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p>I specialise in all aspects of web design and stay on top of current trends. For me, web design isn't just a job - it's a passion. I enjoy the spark of an idea, making it a reality and seeing the joy on a client's face when they view it for the first time. I take real pride in my work and always receive positive feedback. I'm not happy until the client is happy.</p>
-                                        <p>My portfolio is available upon request. Let me know what you're looking for, and I'll tell you what I can deliver.</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <form action="php/contact_form.php" method="get" id="contact_form">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label for="contact_name">Name <span>&#42;</span></label>
-                                                        <input type="text" class="form-control req" id="contact_name" name="contact_name" placeholder="Enter your full name">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label for="email">Email Address <span>&#42;</span></label>
-                                                        <input type="email" class="form-control req" name="email" id="email" placeholder="Enter your email address">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <label for="comment">Message <span>&#42;</span></label>
-                                                        <textarea class="form-control req" id="comment" name="comment" rows="3"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <button type="submit" class="btn btn-block btn-success">Submit</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="scrollIcon">
-                    <a href="#acrd"><i class="fa fa-chevron-down"></i></a>
-                </div>
-            </div>
-            <!-- START: Contact Section -->
-            
-            <!-- START: Accreditations Section -->
-            <div class="section acrdSection">
-                <div class="insideSection">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-push-6 col-md-6 text-center">
-                                <img src="img/accreditations-img.png" alt="" class="img-responsive sectionImg achvImg">
-                            </div>
-                            <div class="col-md-pull-6 col-md-6">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p class="smallHeading">Section</p>
-                                        <h2>Accreditations</h2>
-                                        <p>I would like to say thank you to these websites. Without their free resources I wouldn't have been able to create this website.</p>
-                                        <ul class="acrdList">
-                                            <li><a href="http://www.freepik.com/">Freepik</a></li>
-                                            <li><a href="https://thenounproject.com">The Noun Project</a></li>
-                                            <li><a href="http://www.mattboldt.com">Matt Boldt (Typed.js)</a></li>
-                                        </ul>
-                                        <p>This website was created and designed by <strong>Tameem Safi</strong>.</p>
-                                        <p>&copy; Copyright 2015. All rights reserved.</p>
+                                        <p>&copy; Copyright 2016. Todos los derechos reservados.</p>
                                         <br class="clearfix">
                                     </div>
                                 </div>
@@ -722,14 +634,14 @@
                     </div>
                 </div>
             </div>
-            <!-- START: Accreditations Section -->
+            <!-- START: Contact Section -->
         </div>
         
         
         
         
         <!-- Javacript Files -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp5yEZBzmlAyPzinGeQ1HxwvOaghIXVJY"></script>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="outdatedbrowser/outdatedbrowser.min.js"></script>
@@ -744,34 +656,8 @@
         <script src="js/antiscroll.js"></script>
         <script src="js/typed.custom.js"></script>
         <script src="js/main.js"></script>
-        <script>
-            /* Google Maps */
-            var map;
-            var myLatlng = new google.maps.LatLng(51.509628, -0.113272);
-            function initialize() {
-                var mapOptions = {
-                    zoom: 10,
-                    center: myLatlng,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                }
-                map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-                var marker = new google.maps.Marker({
-                    position: myLatlng,
-                    map: map,
-                    icon: 'img/map-pointer.png',
-                    title: 'Tameem Safi'
-                });
-            }
-            google.maps.event.addDomListener(window, 'load', initialize);
-            /* Google Analytics */
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-63512244-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+        <!--
 		<script type="application/ld+json">
 		{
 			"@context": "https://schema.org/",
@@ -798,5 +684,6 @@
 			"url": "https://safi.me.uk"
 		}
 		</script>
+        -->
     </body>
 </html>
