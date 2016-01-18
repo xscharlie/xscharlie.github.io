@@ -6,7 +6,7 @@
         <meta name="profile" content="http://www.w3.org/2005/10/profile">
         <meta name="format-detection" content="telephone=no">
         <link rel="icon" type="image/png" href="img/favicon.png">
-		    <link rel="alternate" href="http://carloshdez.com" hreflang="en" />
+		<link rel="alternate" href="http://carloshdez.com" hreflang="en" />
         <meta charset="UTF-8">
         <!-- CSS -->
         <link href="css/font-awesome.css" rel="stylesheet">
@@ -19,6 +19,7 @@
         <link href="owl-carousel/owl.transitions.css" rel="stylesheet">
         <link href="css/antiscroll.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/menu.css" rel="stylesheet">
     
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -109,10 +110,50 @@
                 </div>
             </div>
         </header>
+
+        <nav id="colorNav">
+            <ul>
+                <li class="green">
+                    <a href="#about">
+                        <i class="fa fa-user"></i>
+                        <span>A cerca de mí</span>
+                    </a>
+                </li>
+
+                <li class="red">
+                    <a href="#skills">
+                        <i class="fa fa-code"></i>
+                        <span>Habilidades</span>
+                    </a>
+                </li>
+
+                <li class="blue">
+                    <a href="#education">
+                        <i class="fa fa-book"></i>
+                        <span>Formación</span>                    
+                    </a>
+                </li>
+
+                <li class="yellow">
+                    <a href="#personal">
+                        <i class="fa fa-briefcase"></i>
+                        <span>Experiencia laboral</span>
+                    </a>
+                </li>
+
+                <li class="purple">
+                    <a href="#contact">
+                        <i class="fa fa-envelope-o"></i>
+                        <span>Contáctame</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
         
         <div id="fullpage">
             <!-- START: About Section -->
-            <div class="section aboutSection">
+            <div class="section aboutSection" id="about">
                 <div class="insideSection">
                     <div class="container">
                         <div class="row row-about-me">
@@ -120,7 +161,7 @@
                                 <img src="img/about-img.jpg" alt="" class="img-responsive sectionImg aboutImg">
                             </div>
                             <div class="col-md-pull-6 col-md-6">
-                                
+
                                 <h1><span></span></h1>
                                 <p>
                                   Soy un desarrollador de aplicaciones para la web y dispositivos moviles con un flujo de trabajo que incluye desde la conceptualizacion de la idea, el proceso de diseño, la creación de prototipos hasta la puesta en producción del producto.
@@ -128,25 +169,23 @@
                                 <p>
                                   Cada aplicación es construida haciendo uso de las herramientas y tecnologías óptimas para garantizar la calidad, seguridad y potencial del crecimiento de su negocio asi como la usabilidad y satisfacción de sus clientes.
                                 </p>
+                                
+
                             </div>
                             
                         </div>
                     </div>
                 </div>
-                <div class="scrollIcon">
-                    <a href="#skills"><i class="fa fa-chevron-down"></i></a>
-                </div>
             </div>
             <!-- START: About Section -->
             
             <!-- START: Skills Section -->
-            <div class="section skillSection">
+            <div class="section skillSection" id="skills">
                 <div class="insideSection">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <p class="smallHeading">Section</p>
-                                <h2>My Professional Skills</h2>
+                                <h2>Mis habilidades profesionales</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -340,14 +379,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="scrollIcon">
-                    <a href="#education"><i class="fa fa-chevron-down"></i></a>
-                </div>
             </div>
             <!-- START: Skills Section -->
             
             <!-- START: Education Section -->
-            <div class="section educationSection">
+            <div class="section educationSection" id="education">
                 <div class="insideSection">
                     <div class="container">
                         <div class="row">
@@ -386,68 +422,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="scrollIcon">
-                    <a href="#work"><i class="fa fa-chevron-down"></i></a>
-                </div>
             </div>
             <!-- START: Education Section -->
-            
-            <!-- START: Work Experience Section -->
-            <div class="section workSection">
-                <div class="insideSection">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-push-6 col-md-6 text-center">
-                                <img src="img/work-img.png" alt="" class="img-responsive sectionImg workImg">
-                            </div>
-                            <div class="col-md-pull-6 col-md-6">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p class="smallHeading">Resume</p>
-                                        <h2>Work Experience</h2>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="owl-carousel owl-theme slider">
-                                            <!-- START: education -->
-                                            <div class="item">
-                                                <h3>Merchaniser</h3>
-                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> John Lewis <i class="fa2 fa fa-calendar"></i> Nov 2014 &#45; Jan 2015</p>
-                                                <p>I was working during the Christmas season, which is when almost 45% of their sales occur. My role was to provide a very high standard of customer service and make sure that all the stock was presented clearly to the customers. At busy times I also was working as a cashier on the tills to process customers transactions. I had to use my initiative on a daily basis to make sure everything on the shop floor was in order.</p>
-                                            </div>
-                                            <!-- END: education -->
-                                            
-                                            <!-- START: education -->
-                                            <div class="item">
-                                                <h3>Customer Service</h3>
-                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> Confidential <i class="fa2 fa fa-calendar"></i> June 2014 &#45; Sept 2014</p>
-                                                <p>Whilst working for this organization, I have gained many new skills and experiences. I have learn't how important it is to maintain the reputation of a prestigious brand. The most important part of my job was to provide excellent quality of customer service to thousands of visitors who had very high expectations.</p>
-                                            </div>
-                                            <!-- END: education -->
-                                            
-                                            <!-- START: education -->
-                                            <div class="item">
-                                                <h3>Work Experience</h3>
-                                                <p class="subHeading"><i class="fa1 fa fa-bookmark"></i> HandE Production Studio <i class="fa2 fa fa-calendar"></i> July 2010 &#45; 2 Weeks</p>
-                                                <p>This was part of my secondary school work experience program. HandE is a professional media production company, which produces a range of different media related material. As part of my stay I learnt; how the company was able to find clients, the process that goes on behind the production of a film – for example how all the lighting and camera equipment are setup. It was also my first job so it taught me how it feels like to be in a work place environment.</p>
-                                            </div>
-                                            <!-- END: education -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="scrollIcon">
-                    <a href="#personal"><i class="fa fa-chevron-down"></i></a>
-                </div>
-            </div>
-            <!-- START: Work Experience Section -->
-            
+                        
             <!-- START: Personal Experience Section -->
-            <div class="section personalSection">
+            <div class="section personalSection" id="personal">
                 <div class="insideSection">
                     <div class="container">
                         <div class="row">
@@ -502,14 +481,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="scrollIcon">
-                    <a href="#achv"><i class="fa fa-chevron-down"></i></a>
-                </div>
             </div>
             <!-- START: Personal Experience Section -->
             
             <!-- START: Contact Section -->
-            <div class="section contactSection">
+            <div class="section contactSection" id="contact">
                 <div class="insideSection">
                     <div class="container">
                         <div class="row">
@@ -581,7 +557,7 @@
                                             </div>
                                             <div class="row infoRow">
                                                 <!-- Location -->
-                                                <div class="col-md-4">
+                                                <div class="col-md-4 skype">
                                                     
                                                             <span class="fa-stack fa-lg">
                                                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -647,12 +623,10 @@
         <script src="outdatedbrowser/outdatedbrowser.min.js"></script>
         <script src="js/sweet-alert.min.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
-        <script src="js/jquery.slimscroll.min.js"></script>
-        <script src="js/jquery.fullPage.min.js"></script>
+        <script src="js/jquery.anchor.min.js"></script>
         <script src="js/circle-progress.js"></script>
         <script src="owl-carousel/owl.carousel.min.js"></script>
         <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.mousewheel.js"></script>
         <script src="js/antiscroll.js"></script>
         <script src="js/typed.custom.js"></script>
         <script src="js/main.js"></script>

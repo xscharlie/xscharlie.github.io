@@ -59,16 +59,22 @@ $(document).ready(function(){
         skillIinit = initializeSkill();
     }
 
-    $('#fullpage').fullpage({
+    $('a[href*=#]').anchor({
+        transitionDuration : 1200
+    });
+
+    /*$('#fullpage').fullpage({
         menu: 'header',
-        anchors:['about', 'skills', 'education', 'work', 'personal', 'achv', 'contact', 'acrd'],
+        anchors:['about', 'skills', 'education', 'work', 'personal', 'contact'],
         navigation: true,
+        navigationTooltips: ['about', 'skills', 'education', 'work', 'personal', 'contact'], 
         verticalCentered: true,
         scrollOverflow: false,
         normalScrollElements: '.item, .map, #map-canvas, #contact_name, #email, #comment',
         responsive: 991,
+        scrollingSpeed: 1000,
         afterLoad: function(anchorLink, index){
-            /* Skill Section */
+            /* Skill Section 
             if(index == 2) {
 
                 if(skillIinit == false) {
@@ -76,9 +82,10 @@ $(document).ready(function(){
                 }
             }
         },
-    });
+    });*/
 
     $('.slider.item').antiscroll();
+    skillIinit = initializeSkill();
 
     $(".slider").owlCarousel({
         navigation : true, // Show next and prev buttons
