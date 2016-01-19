@@ -13,6 +13,9 @@ body {
  body {
     text-align: center;
 }
+.interactive-msg{
+   min-height: 132px !important;
+}
 }
 
 .skillSection .circle strong img{
@@ -142,7 +145,7 @@ header .headerBtnCol .hireBtn {
     text-decoration: none;
 }
 header .headerBtnCol .hireBtn:hover {
-    background-color: #01847d;
+    background-color: #297088;
 }
 @media (max-width: 991px) {
     .contactSection .infoRow p {
@@ -549,4 +552,44 @@ header .headerBtnCol .hireBtn:hover {
 
 .other-education-list{
   text-align: left;
+}
+
+footer{
+  background-color: #2D2E33;
+}
+
+.footer-buttons{
+  margin:20px 0;
+}
+
+.copyright-text{
+  color: #FBFAFA;
+}
+
+.footer-icon-circle{
+  color: #565656;
+  border-radius: 100%;
+}
+
+.footer-link:hover span{
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 25px white; 
+}
+
+.interactive-msg{
+  min-height: 172px;
+}
+
+.avatar{
+  border-radius: 100%;
+  border: 2px solid whitesmoke;
+  height: 80px;
+  display: inline-block;
+  margin-bottom: 60px;
+  margin-right: 15px;
+}
+
+.brand{
+  display: inline-block; 
 }

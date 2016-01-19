@@ -98,7 +98,7 @@ $(document).ready(function(){
         beforeSubmit : function() { 
             var valid = init_validation('#contact_form');
             if(valid == false) {
-                sweetAlert('Algo salió mal', '¡Por favor llene todos los campos!Please fill in all the required fields!', 'error');
+                sweetAlert('Algo salió mal', '¡Por favor llene todos los campos!', 'error');
             }
             return valid;
         },
