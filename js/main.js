@@ -44,15 +44,13 @@ $(document).ready(function(){
 
     var skillIinit = false;
     var skillArray = [
-        ['html', 1],
-        ['css', 1],
-        ['js', 0.7],
-        ['php', 0.7],
-        ['mysql', 0.8],
-        ['wordpress', 0.8],
-        ['photoshop', 0.8],
-        ['seo', 0.9],
-        ['laravel', 0.7]
+        ['server', 1],
+        ['backend', 1],
+        ['frontend', 0.7],
+        ['uiux', 0.7],
+        ['seo', 0.8],
+        ['mobile', 0.8],
+        
     ];
 
     if($(window).width() < 991) {
