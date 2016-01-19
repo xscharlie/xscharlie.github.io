@@ -98,12 +98,12 @@ $(document).ready(function(){
         beforeSubmit : function() { 
             var valid = init_validation('#contact_form');
             if(valid == false) {
-                sweetAlert('Failed', 'Please fill in all the required fields!', 'error');
+                sweetAlert('Algo salió mal', '¡Por favor llene todos los campos!Please fill in all the required fields!', 'error');
             }
             return valid;
         },
         success : function() {
-            sweetAlert('Success', 'Your message has been sent!', 'success');
+            sweetAlert('Exito', '¡Tu mensaje ha sido enviado!', 'success');
             $('#contact_form').resetForm();
         }
     });
