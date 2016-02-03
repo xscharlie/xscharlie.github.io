@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Open%2BSans%3A400%2C700%2C800%2C300|Montserrat%3A400%2C700");body{font-family:'Open Sans', sans-serif;}
+@import url("//fonts.googleapis.com/css?family=Open%2BSans%3A400%2C700%2C800%2C300|Montserrat%3A400%2C700");body{background-color:#32343f;font-family:'Open Sans', sans-serif;}
 .skype{width:30%;}
 @media (max-width:399px){.interactive-msg{min-height:235px !important;}
 }
