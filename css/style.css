@@ -6,6 +6,26 @@ body {
 .skype {
     width:  30%;
  }
+
+ @media (max-width: 399px) {
+  .interactive-msg{
+    min-height: 235px !important;
+  }
+}
+
+
+@media (max-width: 639px) {
+  .interactive-msg{
+    min-height: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .interactive-msg{
+    min-height: 172px;
+  }
+}
+
 @media (max-width: 991px) {
     nav {
     display:  none;
@@ -14,8 +34,8 @@ body {
     text-align: center;
 }
 .interactive-msg{
-   min-height: 132px !important;
-}
+   min-height: 132px;
+ }
 }
 
 .skillSection .circle strong img{
@@ -575,10 +595,6 @@ footer{
   border-radius: 100%;
   cursor: pointer;
   box-shadow: inset 0px 0px 25px white; 
-}
-
-.interactive-msg{
-  min-height: 172px;
 }
 
 .avatar{
